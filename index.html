@@ -4,6 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>aray4iv3</title>
+    <!-- Link JetBrains Mono Font -->
+    <link rel="preconnect" href="https://googleapis.com">
+    <link rel="preconnect" href="https://gstatic.com" crossorigin>
+    <link href="https://googleapis.com/css2?family=JetBrains+Mono:ital,wght@0,100..800;1,100..800&display=swap" rel="stylesheet">
     <style>
         * {
             box-sizing: border-box;
@@ -35,8 +39,8 @@
             border: 1px solid rgba(255, 255, 255, 0.08);
             border-radius: 16px;
             padding: 40px;
-            max-width: 440px;
-            width: 90%;
+            max-width: 750px;
+            width: 95%;
             text-align: center;
             box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.3);
             animation: fadeIn 1.2s ease-out;
@@ -94,6 +98,22 @@
             color: rgba(201, 209, 217, 0.4);
             font-family: monospace;
         }
+
+        /* Fastfetch Terminal Output Window */
+        .terminal-block {
+            font-family: 'JetBrains Mono', monospace;
+            background: rgba(13, 17, 23, 0.8);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+            padding: 20px;
+            text-align: left;
+            margin-bottom: 28px;
+            overflow-x: auto;
+            white-space: pre;
+            font-size: 0.85rem;
+            line-height: 1.3;
+            color: #c9d1d9;
+        }
     </style>
 </head>
 <body>
@@ -102,6 +122,34 @@
         <h1>Hi, I'm aray4iv3</h1>
         <p>Software Developer, C++ Coder, (i use arch btw)</p>
         
+        <div class="terminal-block">[ aray4iv3-81w0 ~ ]$ fastfetch
+                   00                     aray4iv3@aray4iv3-81w0
+                   11                     ----------------------
+                  ====                    OS: BlackArch Linux x86_64
+                  .//                     Host: 81W0 (IdeaPad 3 14ADA05)
+                 `o//:                    Kernel: Linux 7.2.2-arch1-1
+                `+o//o:                   Uptime: 48 mins
+               `+oo//oo:                  Packages: 5 (flatpak), 1811 (pacman)
+               -+oo//oo+:                 Shell: bash 5.3.15
+             `/:-:+//ooo+:                Display (CMN14E5): 1920x1080 in 14", 60 Hz
+            `/+++++//+++++:               DE: Xfce4 4.20
+           `/++++++//++++++:              WM: Xfwm4 (X11)
+          `/+++oooo//ooooooo/`            WM Theme: blackarch-xfce
+         ./ooosssso//osssssso+`           Theme: blackarch-xfce [GTK2/3/4]
+        .oossssso-`//`/ossssss+`          Icons: blackarch-icons [GTK2/3/4]
+       -osssssso.  //  :ssssssso.         Font: Liberation Sans (10pt) [GTK2/3/4]
+      :osssssss/   //   osssso+++.        Cursor: blackarch
+     /ossssssss/   //   +ssssooo/-        Terminal: xfce4-terminal 1.2.0
+   `/ossssso+/:-   //   -:/+osssso+-      Terminal Font: Liberation Mono (10pt)
+  `+sso+:-`        //       `.-/+oso:     CPU: AMD Ryzen 3 3250U (4) @ 3.50 GHz
+ `++:.             //            `-/+/    GPU: AMD Radeon Vega 3 Graphics [Integrated]
+ .`                /                `/    Memory: 3.43 GiB / 5.66 GiB (61%)
+                                          Swap: Disabled
+                                          Disk (/): 44.30 GiB / 338.09 GiB (13%) - ext4
+                                          Local IP (wlan0): im-not-telling-you
+                                          Battery (L16C2PB1): 96% [AC Connected]
+                                          Locale: en_US.utf8</div>
+
         <div class="links-container">
             <a href="https://github.com/aray4iv3" target="_blank" class="btn">GitHub Profile</a>
             <a href="mailto:aray4iv3@gmail.com" class="btn">Get in Touch</a>
